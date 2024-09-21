@@ -155,12 +155,14 @@ class ImageProcessingApp(QMainWindow):
 
             self.display_processed_image()
 
+
+
     def display_original_image(self):
         if self.original_image is not None:
             height, width, channel = self.original_image.shape
             bytes_per_line = 3 * width
             q_image = QImage(self.original_image.data, width, height, bytes_per_line, QImage.Format_RGB888)
-
+            print("kursat")
             pixmap = QPixmap.fromImage(q_image)
             label_width = 400
             label_height = int(height * (label_width / width))
