@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QPushButton, QCom
 from PyQt5.QtGui import QPixmap, QImage, QFont, QColor
 from PyQt5.QtCore import Qt
 
-class ImageProcessingApp(QMainWindow):
+class IŞĞŞİŞĞ(QMainWidow):
     def __init__(self):
         super(ImageProcessingApp, self).__init__()
 
